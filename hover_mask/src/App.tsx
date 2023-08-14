@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 
 import useMousePosition from './hooks/useMousePosition';
 
+import './assets/mask.svg'
+import '/mask.svg'
+
 function App() {
   const [isHovered, setIsHovered] = useState(false);
   const {x,y} = useMousePosition()

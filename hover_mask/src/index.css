@@ -26,8 +26,8 @@ p{
 
   .mask{
     position: absolute;
-    mask-image: url('./mask.svg');
-    -webkit-mask-image: url('./mask.svg');
+    mask-image: url('/mask.svg');
+    -webkit-mask-image: url('/mask.svg');
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     color: black;
