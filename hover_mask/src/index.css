@@ -1,9 +1,16 @@
 body{
   background-color: black;
 }
+p{
+  display: block;
+  margin: auto;
+  width: 80vw;
+}
+
 .main{
   color: #fff;
   height: 100vh;
+  
   .base, .mask {
     display: flex;
     height: 100%;
